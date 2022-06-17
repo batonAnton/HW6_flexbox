@@ -1,0 +1,66 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Avenir';
+  src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+}
+
+header {
+  display: flex;
+  margin: 30px 100px;
+  justify-content: space-between;
+  /* border: 1px solid gray; */
+  font-family: 'Avenir', Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+
+nav ul  {
+  display: flex;
+  list-style: none;
+  margin-right:500px ;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+
+.header-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.header-btn button{
+    padding: 15px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgb(75 93 104 / 15%);
+    width: 210px;
+    color: #212353;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.btn-img{
+    margin-left: -30px;
+    margin-top: 20px;
+}
+
+
+
+
+button img{
+    padding-top: 5px;
+    margin-left: 5px;
+}
+
+button:hover{
+    border: 1px solid rgba(156, 105, 226, 1);
+    text-decoration: underline;
+}
+

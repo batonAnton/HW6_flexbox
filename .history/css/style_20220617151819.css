@@ -1,0 +1,14 @@
+body {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 100px;
+  border:1px solid gray;
+}
+
+nav ul li{
+    display: flex;
+}
