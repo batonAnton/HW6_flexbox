@@ -1,0 +1,126 @@
+body {
+  box-sizing: border-box;
+  font-family: "Avenir";
+}
+
+header {
+  display: flex;
+  margin: 30px 100px;
+  justify-content: space-between;
+  /* border: 1px solid gray; */
+ font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+
+nav {
+  margin-right: 40%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  color: #4b5d68;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: center;
+}
+
+
+.header-btn button {
+  padding: 15px 30px 15px 15px;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgb(75 93 104 / 15%);
+  width: 210px;
+  color: #212353;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 0.005em;
+}
+
+.btn-img {
+  margin-left: -35px;
+  padding-left: -15px;
+  align-self: center;
+}
+
+button img {
+  padding-top: 5px;
+  margin-left: 5px;
+}
+
+button:hover {
+  border: 1px solid rgba(156, 105, 226, 1);
+  text-decoration: underline;
+}
+
+.section {
+  display: flex;
+  margin: 70px 100px;
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+
+
+.info {
+  width: 50%;
+}
+
+.section h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 110%;
+  font-family: "Helvetica Neue", sans-serif;
+  color:#212353;
+  font-weight: 700;
+}
+
+
+
+.section p {
+  font-family: 'Avenir', Helvetica, sans-serif;  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-img {
+  position: absolute;
+  bottom: 1%;
+  right: -13%;
+}
+.section-img img {
+  width: 84%;
+}
+
+.info button{
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    background-color: #9C69E2;
+    border-radius: 50px;
+    color: #ffffff;
+    width: 170px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+}

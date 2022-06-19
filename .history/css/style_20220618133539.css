@@ -230,7 +230,7 @@ height: 160px;
   /* height: 709px; */
   background-color: #9C69E2;
   border-radius: 50px;
-  padding: 30px 93px;
+  padding: 60px 93px;
 }
 
 .section4 h1{
@@ -247,7 +247,7 @@ height: 160px;
   background-color: #FFFFFF;
   box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
   border-radius: 20px;
-  padding: 30px 93px 120px 93px;
+  padding: 30px 93px;
 }
 
 .section4 .info{
@@ -255,175 +255,4 @@ height: 160px;
   width: auto;
 }
 
-.section4 .info h1{
-font-family: 'Avenir';
-font-style: normal;
-font-weight: 900;
-font-size: 18px;
-line-height: 160%;
-letter-spacing: 0.005em;
-color: #212353;
-margin-bottom: 0;
-}
-
-.section4 .info p{
-  font-family: 'Avenir';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 180%;
-color: #4B5D68;
-}
-
-.section4 .info a{
-  text-decoration: none;
-}
-
-.rounded{
-  border-radius:50%;
-}
-
-h4{
-  color: #ffffff;
-  margin-top: 60px ;
-}
-
-.right{
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-  margin-top: -44px;
-}
-
-hr{
-  margin-top: 100px;
-  margin-bottom: 45px;
-  background: #9C69E2;
-  opacity: 0.2;
-}
-
-.forfree{
-  margin-top: 125px;
-  margin-bottom: 125px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.forfree h1{
-  font-family: 'Helvetica';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 130%;
-display: flex;
-align-items: center;
-color: #212353;
-}
-
-.forfree p{
-  font-family: 'Avenir';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 160%;
-color: #4B5D68;
-}
-
-.forfree button{
-  font-family: 'Avenir', Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 160%;
-    background-color: #F063B8;
-    border-radius: 50px;
-    color: #ffffff;
-    width: 170px;
-    height: 60px;
-    border: none;
-    cursor: pointer;
-    margin-left: 30px;
-}
-
-.forfree .header-btn button {
-  padding: 15px 30px 15px 15px;
-  text-transform: capitalize;
-  border: none;
-  border-radius: 50px;
-  background: #ffffff;
-  box-shadow: 0px 5px 5px rgb(75 93 104 / 15%);
-  width: 210px;
-  color: #212353;
-  font-size: 16px;
-  font-weight: 800;
-  line-height: 100%;
-  letter-spacing: 0.005em;
-}
-
-.forfree .btn-img{
-  margin-top: -35px;
-}
-
-.btn-block{
-  display: flex;
-  margin-top: 55px
-}
-
-/* footer */
-
-.allblock{
-  display: flex;
-  justify-content: space-between;
-}
-
-.about, .help{
-  display: inline-grid;
-}
-
-footer h1{
-  font-family: 'Avenir';
-font-style: normal;
-font-weight: 900;
-font-size: 16px;
-line-height: 160%;
-color: #212353;
-margin-bottom: 30px;
-}
-
-.address a{
-  margin-bottom: 5px;
-}
-
-
-footer a{
-  text-decoration: none;
-  padding-bottom: 15px;
-}
-
-footer p{
-  font-family: 'Avenir';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 180%;
-letter-spacing: 0.01em;
-color: #212353;
-}
-
-.pfooter{
-  font-family: 'Avenir';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 180%;
-display: flex;
-align-items: center;
-letter-spacing: 0.01em;
-color: #212353;
-}
-
-.message{
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 100px;
-}
+.section4 h1
